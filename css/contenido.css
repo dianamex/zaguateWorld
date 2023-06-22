@@ -1,0 +1,203 @@
+@font-face { 
+    font-family: Yanone Kaffeesatz; 
+      src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+      src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+  } 
+  @media (max-width:1186px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .principal-page{
+        min-width: 750px;
+    }
+  
+  }
+  
+  html { 
+    height: 100%;
+  }
+  
+  * { 
+    padding: 0;
+    margin: 0;
+  }
+    
+  article, aside, figure, footer, header, hgroup, nav, section { 
+    display:block;
+  }
+  
+  body { 
+    font: normal .8em arial, sans-serif;
+    background: #C4E9E8 url(../img/back.png) repeat-x;
+    color: #555;
+  }
+  
+  .container { 
+    background: transparent url(../img/grass.png) repeat-x bottom;
+  
+  }
+  #main{
+    margin: 0px auto;
+    background-color: white;
+    width: 70%;
+    border-radius: 30px;
+  }
+  #logo img{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 95%;
+  }
+  #menu{
+    height: 50px;
+    width: 95%;
+    margin: 0px auto;
+    background-color: #53C7FD;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .menu-horizontal{
+    list-style: none;
+    display: flex;
+    
+  }
+  .menu-horizontal .item-menu{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .menu-horizontal .item-menu:hover{
+    color: #E5017D;
+  }
+  .dropdown-menu{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #53C7FD;
+  }
+  .menu-horizontal li:hover .dropdown-menu{
+    display: block;
+  }
+  .dropdown-menu .item-menu-sub{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .dropdown-menu .item-menu-sub:hover{
+    color: #E5017D;
+  }
+  #contenedor-principal{
+    width: 100%;
+    background-color: white;
+    overflow: overlay;
+  }
+  p{
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 20px;
+    
+  }
+  #articulo-principal{
+    width: 65%;
+    float: left;
+    margin-left: 20px;
+  }
+  #articulo-principal h1{
+    line-height: 20px;
+    color: #E5017D;
+    letter-spacing: -1px;
+    padding: 30px 15px;
+    margin-bottom: 5px;
+  }
+  img.picB{  
+    position: relative; 
+    top: -2px; 
+    width: 180px;
+    height: auto;
+    padding: 8px; 
+    float: right;
+    border-style: outset;
+    margin: 30px 20px;
+  }
+  #articulo-principal li{
+    margin-left: 50px;
+    line-height: 20px;
+  }
+  #articulos-adicionales{
+    width: 25%;
+    float: right;
+    margin: 20px;
+  }
+  #articulos-adicionales .recuadro{
+    background-color: #F5FEFF;
+    border: solid 1px #C9E5E9;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  #articulos-adicionales h3{
+    font-size: 18px;
+    line-height: 15px;
+    color: #2fff21;
+    letter-spacing: -1px;
+    padding: 10px 15px;
+  }
+  #articulos-adicionales h4{
+    font-size: 12px;
+    line-height: 20px;
+    color: lightgray;
+    letter-spacing: -1px;
+    padding: 0px 15px;
+    font-style: italic;
+  }
+  #articulos-adicionales p{
+    padding: 0px 15px;
+  }
+  #articulos-adicionales a{
+    color: #53C7FD;
+  }
+  #articulos-adicionales li{
+    list-style: none;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  footer{
+    text-align: center;
+    height: 150px;
+    width: 95%;
+    margin: 0px auto;
+    background-color: #53C7FD;
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 30px;
+  }
+  
+  .item-footer{
+    color: white;
+    font-size: medium;
+    border-right: 1px solid white;
+    padding: 5px;
+    margin-bottom: 50px;
+  }
+  .item-footer-last{
+    color: white;
+    font-size: medium;
+    padding: 5px;
+    margin-bottom: 50px;
+  }
+  #pie p{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: medium;
+  }
